@@ -24,6 +24,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor : Colors.indigo,
         title: const Text(
           'Shopping List',
+          style: TextStyle(color: Colors.white),
         ),
       ),
       body: SingleChildScrollView(
