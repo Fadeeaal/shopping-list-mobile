@@ -128,8 +128,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                                     children: [
                                       Text('Nama: $_name'),
                                       Text('Price: $_price'),
-                                      Text('Description: $_description'),
-                                      
+                                      Text('Description: $_description'),     
                                     ],
                                   ),
                                 ),
@@ -144,8 +143,8 @@ class _ShopFormPageState extends State<ShopFormPage> {
                               );
                             },
                           );
+                          _formKey.currentState!.reset();
                         }
-                        _formKey.currentState!.reset();
                       },
                       child: const Text(
                         "Save",
