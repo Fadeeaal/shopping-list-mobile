@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
         actions: [
           // Add a leading action that triggers Navigator.pop when pressed
           IconButton(
-            icon: Icon(Icons.arrow_back),
+            icon: const Icon(Icons.arrow_back),
             onPressed: () {
               Navigator.pop(context);
             },
